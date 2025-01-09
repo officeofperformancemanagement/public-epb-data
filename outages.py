@@ -35,6 +35,26 @@ def get_outages():
         writer.writeheader()
         writer.writerows(outages)
 
+    features = []
+    for outage in outages:
+        features.append({
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    outage['longitude'],
+                    outage['latitude']
+                ]
+            }
+        })
+
+    geojson = {
+        "type": "FeatureCollection",
+        "features": features
+    }
+    with open("outages.geojson", "wb") as f:
+        json.dump(geojson, f)
 
 """
 Retrieves the restores from the webpage and writes their data to restores.csv.
