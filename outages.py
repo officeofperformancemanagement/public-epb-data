@@ -87,7 +87,7 @@ def get_restores():
         features.append({
             "type": "Feature",
             "properties": {
-                "incident_status": outage['incident_status']
+                "incident_status": restore['incident_status']
             },
             "geometry": {
                 "type": "Point",
