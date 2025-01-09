@@ -53,7 +53,7 @@ def get_outages():
         "type": "FeatureCollection",
         "features": features
     }
-    with open("outages.geojson", "wb") as f:
+    with open("outages.geojson", "w") as f:
         json.dump(geojson, f)
 
 """
