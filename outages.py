@@ -39,7 +39,9 @@ def get_outages():
     for outage in outages:
         features.append({
             "type": "Feature",
-            "properties": {},
+            "properties": {
+                "incident_status": outage['incident_status']
+            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
@@ -84,7 +86,9 @@ def get_restores():
     for restore in restores:
         features.append({
             "type": "Feature",
-            "properties": {},
+            "properties": {
+                "incident_status": outage['incident_status']
+            },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
