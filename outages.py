@@ -80,6 +80,26 @@ def get_restores():
         writer.writeheader()
         writer.writerows(restores)
 
+    features = []
+    for restore in restores:
+        features.append({
+            "type": "Feature",
+            "properties": {},
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    outage['longitude'],
+                    outage['latitude']
+                ]
+            }
+        })
+
+    geojson = {
+        "type": "FeatureCollection",
+        "features": features
+    }
+    with open("restores.geojson", "w") as f:
+        json.dump(geojson, f)
 
 get_outages()
 get_restores()
