@@ -88,8 +88,8 @@ def get_restores():
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    outage['longitude'],
-                    outage['latitude']
+                    restore['longitude'],
+                    restore['latitude']
                 ]
             }
         })
