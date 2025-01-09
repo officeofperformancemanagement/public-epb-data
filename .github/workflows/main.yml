@@ -1,0 +1,29 @@
+name: build-main
+run-name: build-main
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    # Run every day at midnight
+    - cron: */5 * * * *
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    name: Download and save data
+    steps:
+      # Check repository
+      - uses: actions/checkout@v3
+      
+      # Install python in container
+      - uses: actions/setup-python@v4
+      
+      # Install python libraries needed to run business_licenses.py
+      - run: pip install requests
+      - run: python3 outages.py
+      
+      # Commit changes to repository
+      - uses: stefanzweifel/git-auto-commit-action@v5
