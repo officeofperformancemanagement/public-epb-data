@@ -1,1 +1,1 @@
-{"type": "FeatureCollection", "features": [{"type": "Feature", "properties": {"incident_status": "EN_ROUTE"}, "geometry": {"type": "Point", "coordinates": [-85.097106, 35.038316]}}]}
+{"type": "FeatureCollection", "features": [{"type": "Feature", "properties": {"incident_status": "EN_ROUTE"}, "geometry": {"type": "Point", "coordinates": [-85.096906, 35.039616]}}]}
