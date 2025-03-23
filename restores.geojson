@@ -1,1 +1,1 @@
-{"type": "FeatureCollection", "features": [{"type": "Feature", "properties": {"incident_status": "MANUAL_RESTORE"}, "geometry": {"type": "Point", "coordinates": [-85.1975883012192, 35.1203145933432]}}, {"type": "Feature", "properties": {"incident_status": "SMART_GRID_RESTORE"}, "geometry": {"type": "Point", "coordinates": [-85.3055534286959, 35.0467820362021]}}]}
+{"type": "FeatureCollection", "features": [{"type": "Feature", "properties": {"incident_status": "SMART_GRID_RESTORE"}, "geometry": {"type": "Point", "coordinates": [-85.3055534286959, 35.0467820362021]}}]}
