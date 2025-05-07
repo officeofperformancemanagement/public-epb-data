@@ -1,1 +1,1 @@
-{"type": "FeatureCollection", "features": [{"type": "Feature", "properties": {"incident_status": "OUTAGE_REPORTED"}, "geometry": {"type": "Point", "coordinates": [-85.201944, 35.151172]}}]}
+{"type": "FeatureCollection", "features": [{"type": "Feature", "properties": {"incident_status": "OUTAGE_REPORTED"}, "geometry": {"type": "Point", "coordinates": [-85.201244, 35.145472]}}]}
