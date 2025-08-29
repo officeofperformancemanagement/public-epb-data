@@ -1,2 +1,3 @@
 crew_qty,customer_qty,incident_status,latitude,longitude
-2,1,EN_ROUTE,35.02497,-85.311058
+2,1,OUTAGE_REPORTED,35.02637,-85.308958
+0,1,OUTAGE_REPORTED,35.016582,-85.09152
