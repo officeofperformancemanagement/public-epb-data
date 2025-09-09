@@ -1,1 +1,1 @@
-{"type": "FeatureCollection", "features": [{"type": "Feature", "properties": {"incident_status": "REPAIR_IN_PROGRESS"}, "geometry": {"type": "Point", "coordinates": [-85.164645, 35.021138]}}, {"type": "Feature", "properties": {"incident_status": "REPAIR_IN_PROGRESS"}, "geometry": {"type": "Point", "coordinates": [-85.286622, 35.005708]}}]}
+{"type": "FeatureCollection", "features": [{"type": "Feature", "properties": {"incident_status": "REPAIR_IN_PROGRESS"}, "geometry": {"type": "Point", "coordinates": [-85.281322, 35.006608]}}]}
