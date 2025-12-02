@@ -1,1 +1,1 @@
-{"type": "FeatureCollection", "features": [{"type": "Feature", "properties": {"incident_status": "REPAIR_IN_PROGRESS"}, "geometry": {"type": "Point", "coordinates": [-85.263102, 34.980767]}}, {"type": "Feature", "properties": {"incident_status": "EN_ROUTE"}, "geometry": {"type": "Point", "coordinates": [-85.213722, 35.130787]}}]}
+{"type": "FeatureCollection", "features": [{"type": "Feature", "properties": {"incident_status": "EN_ROUTE"}, "geometry": {"type": "Point", "coordinates": [-85.210122, 35.131587]}}]}
