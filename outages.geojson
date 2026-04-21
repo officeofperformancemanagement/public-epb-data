@@ -1,1 +1,1 @@
-{"type": "FeatureCollection", "features": [{"type": "Feature", "properties": {"incident_status": "OUTAGE_REPORTED"}, "geometry": {"type": "Point", "coordinates": [-85.36547, 35.104118]}}]}
+{"type": "FeatureCollection", "features": [{"type": "Feature", "properties": {"incident_status": "OUTAGE_REPORTED"}, "geometry": {"type": "Point", "coordinates": [-85.36527, 35.106018]}}, {"type": "Feature", "properties": {"incident_status": "OUTAGE_REPORTED"}, "geometry": {"type": "Point", "coordinates": [-85.23238, 35.162385]}}]}
